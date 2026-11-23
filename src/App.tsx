@@ -16,7 +16,7 @@ interface GalleryItem {
 const GALLERY_ITEMS: GalleryItem[] = [
   {
     title: 'Municipal Corporation Buildings',
-    src: '/assets/media/images/municipal-building.jpg',
+    src: '/web-prac-2/Assets/Media/Images/muncipal-building.jpg',
     alt: 'Municipal corporation city hall and civic administrative building with landscaped entrance and transit street',
     caption:
       'Civic headquarters housing municipal administration, citizen desks, and public service records.',
@@ -24,7 +24,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     title: 'Road Cleaning & Sanitation Workers',
-    src: '/assets/media/images/road-cleaning.jpg',
+    src: '/web-prac-2/Assets/Media/Images/road-cleaning.jpg',
     alt: 'Sanitation workers in orange safety gear cleaning city sidewalks alongside a municipal street sweeping truck',
     caption:
       'Municipal sanitation crews clearing sidewalks and roadways to keep commercial and residential streets spotless.',
@@ -32,7 +32,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     title: 'Garbage Collection & Waste Management',
-    src: '/assets/media/images/garbage-collection.jpg',
+    src: '/web-prac-2/Assets/Media/Images/garbage-collection.jpg',
     alt: 'Municipal sanitation worker operating a white garbage collection truck along a city avenue',
     caption:
       'Dedicated municipal collection trucks transporting household and neighborhood waste safely on daily routes.',
@@ -40,7 +40,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     title: 'Road Maintenance & Street Repairs',
-    src: '/assets/media/images/road-maintenance.jpg',
+    src: '/web-prac-2/Assets/Media/Images/road-maintenance.jpg',
     alt: 'Crew operating an asphalt paving machine and compactor roller during road maintenance and resurfacing',
     caption:
       'Civil engineering and paving crews resurfacing damaged roadways and maintaining smooth urban transport links.',
@@ -48,7 +48,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     title: 'Water Supply & Drainage Systems',
-    src: '/assets/media/images/water-supply.jpg',
+    src: '/web-prac-2/Assets/Media/Images/water-supply.jpg',
     alt: 'Municipal water treatment plant concrete filtration basins, channels, and clean water storage tanks',
     caption:
       'Municipal filtration basins, water treatment channels, and distribution facilities safeguarding clean city water.',
@@ -56,7 +56,7 @@ const GALLERY_ITEMS: GalleryItem[] = [
   },
   {
     title: 'Public Parks & City Infrastructure',
-    src: '/assets/media/images/public-park.jpg',
+    src: '/web-prac-2/Assets/Media/Images/public-park.jpg',
     alt: 'Neighborhood municipal public park featuring green lawns, mature trees, playground equipment, and park pavilion',
     caption:
       'Maintained neighborhood green spaces, playgrounds, and shared community infrastructure open to all residents.',
