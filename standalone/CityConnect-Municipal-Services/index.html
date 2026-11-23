@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CityConnect Municipal Services citizen portal for water, waste management, multimedia citizen guides, and public grievances.">
+  <title>CityConnect – Municipal Services</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="top-strip">
+    <span>🏛️ City Municipal Corporation · Citizen Service Portal</span>
+    <span>Public information and essential services</span>
+  </div>
+
+  <header>
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="CityConnect home">
+        <span class="brand-mark">C</span>
+        <span><strong>CityConnect</strong><small>Municipal Services</small></span>
+      </a>
+      <button type="button" class="mobile-menu-btn" id="mobileMenuBtn" aria-expanded="false" aria-controls="mainNav">
+        Menu ☰
+      </button>
+      <nav id="mainNav" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#multimedia">Multimedia Centre</a>
+        <a href="#announcements">Announcements</a>
+        <a href="#schedule">Collection Schedule</a>
+        <a href="#complaint" class="nav-cta">Register Complaint</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div>
+        <span class="eyebrow">Your city, your services</span>
+        <h1>A better city begins with better public services.</h1>
+        <p>Find essential municipal information, learn about water and waste services, and share a civic concern with your municipal corporation.</p>
+        <div class="hero-actions">
+          <a class="button" href="#services">Explore Services</a>
+          <a class="button secondary" href="#complaint">Submit a Complaint</a>
+          <a class="button outline-light" href="#audio-guide">Listen to Audio Guide</a>
+        </div>
+      </div>
+      <img class="hero-art" src="assets/images/municipal-building.jpg" alt="CityConnect municipal corporation city hall building and civic plaza" width="960" height="436">
+    </section>
+
+    <div class="quick-grid" aria-label="Quick service highlights">
+      <div class="quick-card"><span class="quick-icon">💧</span><div><strong>Water Services</strong><span>Supply and service information</span></div></div>
+      <div class="quick-card"><span class="quick-icon">♻️</span><div><strong>Waste Management</strong><span>Collection and cleanliness</span></div></div>
+      <div class="quick-card"><span class="quick-icon">📣</span><div><strong>Public Grievances</strong><span>Report a civic issue</span></div></div>
+    </div>
+
+    <section id="services">
+      <div class="section-heading">
+        <div><h2>Municipal Services</h2><p>Access important services provided for residents.</p></div>
+        <span class="tag">Citizen help centre</span>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <span class="icon">💧</span><h3>Water Supply</h3>
+          <p>View water supply updates, report interruptions, and find information about water-related services.</p>
+          <a href="#complaint">Report a water issue →</a>
+        </article>
+        <article class="service-card">
+          <span class="icon">♻️</span><h3>Waste Management</h3>
+          <p>Check waste collection information and report missed pickups or public-area waste concerns.</p>
+          <a href="#schedule">View collection schedule →</a>
+        </article>
+        <article class="service-card">
+          <span class="icon">📝</span><h3>Public Grievances</h3>
+          <p>Share concerns about municipal services so the appropriate department can review them.</p>
+          <a href="#complaint">Register a complaint →</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="multimedia" class="multimedia-section">
+      <div class="section-heading">
+        <div>
+          <h2>Multimedia Centre</h2>
+          <p>Real-life municipal service photography, spoken English citizen guide, and field operations video.</p>
+        </div>
+        <span class="tag">Photos · Audio · Video</span>
+      </div>
+
+      <!-- 1. Real-Life Photo Gallery -->
+      <div class="media-block">
+        <div class="sub-heading">
+          <h3>Real-Life Municipal Photo Gallery</h3>
+          <p>Genuine photographs showing city administration, street sanitation, waste collection, road repairs, water treatment, and public parks. Click any photo to enlarge.</p>
+        </div>
+        <div class="gallery-grid" id="photoGallery">
+          <figure class="gallery-card" tabindex="0" data-index="0">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/municipal-building.jpg" alt="Municipal corporation city hall and civic administrative building with landscaped entrance and transit street" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Municipal Corporation Buildings</strong>
+              <p>Civic headquarters housing municipal administration, citizen desks, and public service records.</p>
+              <span class="credit">Photo: Wikimedia Commons (CC BY-SA 2.0)</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card" tabindex="0" data-index="1">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/road-cleaning.jpg" alt="Sanitation workers in orange safety gear cleaning city sidewalks alongside a municipal street sweeping truck" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Road Cleaning &amp; Sanitation Workers</strong>
+              <p>Municipal sanitation crews clearing sidewalks and roadways to keep commercial and residential streets spotless.</p>
+              <span class="credit">Photo: Wikimedia Commons (CC BY-SA 4.0)</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card" tabindex="0" data-index="2">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/garbage-collection.jpg" alt="Municipal sanitation worker operating a white garbage collection truck along a city avenue" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Garbage Collection &amp; Waste Management</strong>
+              <p>Dedicated municipal collection trucks transporting household and neighborhood waste safely on daily routes.</p>
+              <span class="credit">Photo: Wikimedia Commons (CC BY 2.0)</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card" tabindex="0" data-index="3">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/road-maintenance.jpg" alt="Crew operating an asphalt paving machine and compactor roller during road maintenance and resurfacing" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Road Maintenance &amp; Street Repairs</strong>
+              <p>Civil engineering and paving crews resurfacing damaged roadways and maintaining smooth urban transport links.</p>
+              <span class="credit">Photo: Public Domain Civic Archive</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card" tabindex="0" data-index="4">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/water-supply.jpg" alt="Municipal water treatment plant concrete filtration basins, channels, and clean water storage tanks" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Water Supply &amp; Drainage Systems</strong>
+              <p>Municipal filtration basins, water treatment channels, and distribution facilities safeguarding clean city water.</p>
+              <span class="credit">Photo: Wikimedia Commons (CC BY-SA 2.0)</span>
+            </figcaption>
+          </figure>
+
+          <figure class="gallery-card" tabindex="0" data-index="5">
+            <div class="gallery-img-wrap">
+              <img src="assets/images/public-park.jpg" alt="Neighborhood municipal public park featuring green lawns, mature trees, playground equipment, and park pavilion" loading="lazy">
+            </div>
+            <figcaption>
+              <strong>Public Parks &amp; City Infrastructure</strong>
+              <p>Maintained neighborhood green spaces, playgrounds, and shared community infrastructure open to all residents.</p>
+              <span class="credit">Photo: Wikimedia Commons (CC BY-SA 4.0)</span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- 2 & 3. Spoken Audio Guide + Playable Video -->
+      <div class="av-grid">
+        <!-- Spoken Audio Section -->
+        <article class="av-card" id="audio-guide">
+          <div class="av-header">
+            <div>
+              <h3>CityConnect Audio Guide</h3>
+              <p>Spoken English introduction covering municipal services, complaint reporting, and civic responsibility.</p>
+            </div>
+            <span class="tag" id="audioStatusBadge">Ready to speak</span>
+          </div>
+
+          <div class="audio-player-box">
+            <div class="audio-controls" role="group" aria-label="Audio guide playback controls">
+              <button type="button" class="button" id="audioPlayBtn">▶ Play</button>
+              <button type="button" class="button secondary" id="audioPauseBtn" disabled>⏸ Pause</button>
+              <button type="button" class="button danger-soft" id="audioStopBtn" disabled>■ Stop</button>
+            </div>
+
+            <div class="audio-options">
+              <label for="voiceSelect">
+                Speaking Voice
+                <select id="voiceSelect" aria-label="Select speaking voice"></select>
+              </label>
+              <label for="rateSelect">
+                Speed
+                <select id="rateSelect" aria-label="Select speaking speed">
+                  <option value="0.9">0.9× Clear</option>
+                  <option value="1" selected>1.0× Normal</option>
+                  <option value="1.15">1.15× Brisk</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="progress-wrap" aria-hidden="true">
+              <div class="progress-fill" id="audioProgressFill"></div>
+            </div>
+            <p class="audio-meta" id="audioProgressText">Click Play to hear the spoken English guide (4 sections).</p>
+            <div class="audio-fallback-note" id="audioNotice" hidden></div>
+          </div>
+
+          <div class="transcript-box" aria-label="Spoken audio guide transcript">
+            <h4>Spoken Script &amp; Live Highlight</h4>
+            <div class="transcript-list" id="transcriptList">
+              <button type="button" class="transcript-item" data-segment="0">
+                <strong>1. Introduction to CityConnect</strong>
+                <span>Welcome to CityConnect – Municipal Services, the digital citizen portal designed to keep our municipality connected, responsive, and easy to reach.</span>
+              </button>
+              <button type="button" class="transcript-item" data-segment="1">
+                <strong>2. Municipal Services Available</strong>
+                <span>On this website, residents can check water supply updates, review the six-day household waste collection schedule, read official municipal announcements, and locate city office contact details.</span>
+              </button>
+              <button type="button" class="transcript-item" data-segment="2">
+                <strong>3. How to Report Complaints</strong>
+                <span>To report a civic concern, open the Register a Complaint section, choose Water Supply, Waste Management, or Public Grievance, enter your street or area, describe the problem clearly, and submit the form for departmental review.</span>
+              </button>
+              <button type="button" class="transcript-item" data-segment="3">
+                <strong>4. Cleanliness &amp; Civic Responsibility</strong>
+                <span>Clean cities begin with everyday civic responsibility. Separating household waste, using designated collection points, and promptly reporting water leaks or missed pickups help sanitation workers keep our neighborhoods healthy and safe for everyone.</span>
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Playable Video Section -->
+        <article class="av-card" id="video-action">
+          <div class="av-header">
+            <div>
+              <h3>CityConnect in Action</h3>
+              <p>Real-life municipal street sweeping and neighborhood waste collection operations in progress.</p>
+            </div>
+            <span class="tag">HD Video with Sound</span>
+          </div>
+
+          <div class="video-frame-wrap">
+            <video id="municipalVideo" controls preload="metadata" playsinline poster="assets/images/video-poster.jpg">
+              <source src="assets/video/cityconnect-in-action.mp4" type="video/mp4">
+              Your browser does not support HTML5 video playback.
+              <a href="assets/video/cityconnect-in-action.mp4">Download the municipal operations video (MP4)</a>.
+            </video>
+          </div>
+
+          <div class="video-chapters" role="group" aria-label="Video activity highlights">
+            <button type="button" class="chapter-btn" data-time="0">0:00 · Walk-Behind Street Sweeping</button>
+            <button type="button" class="chapter-btn" data-time="7.6">0:08 · Curbside Waste Collection Truck</button>
+          </div>
+
+          <p class="video-caption">
+            <strong>Activities shown:</strong> Municipal sidewalk and pavement street sweeping followed by automated residential waste pickup along a neighborhood route. Real ambient audio included.
+          </p>
+          <p class="credit">Video clips: Wikimedia Commons (CC BY-SA 4.0) · Walk-behind street sweeper &amp; neighborhood trash collection truck.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="announcements">
+      <div class="section-heading">
+        <div><h2>Announcements &amp; Updates</h2><p>Important notices for citizens. Check here for service updates.</p></div>
+      </div>
+      <div class="content-grid">
+        <article>
+          <h3>Latest Announcements</h3>
+          <div class="announcement">
+            <time datetime="2026-11-20">20 November 2026 · Public notice</time>
+            <p>Residents are encouraged to keep household waste separated for responsible collection.</p>
+          </div>
+          <div class="announcement">
+            <time datetime="2026-11-18">18 November 2026 · Water services</time>
+            <p>Citizens can use the complaint section to report water supply interruptions in their area.</p>
+          </div>
+          <div class="announcement">
+            <time datetime="2026-11-15">15 November 2026 · Clean city</time>
+            <p>Please keep public spaces clean and use the designated waste collection points.</p>
+          </div>
+        </article>
+        <aside class="panel">
+          <h3>Citizen Information</h3>
+          <ul class="notice-list">
+            <li>Use the complaint form to describe a civic issue clearly.</li>
+            <li>Choose the correct service category when submitting a complaint.</li>
+            <li>Provide accurate contact details for follow-up.</li>
+            <li>Follow official announcements for service-related updates.</li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <section id="schedule">
+      <div class="section-heading">
+        <div><h2>Waste Collection Information</h2><p>A sample schedule showing how collection details can be presented.</p></div>
+        <span class="tag">Sample information</span>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Service Area</th><th>Service</th><th>Collection Day</th><th>Information</th></tr></thead>
+          <tbody>
+            <tr><td>Central Zone</td><td>Household waste</td><td>Monday – Saturday</td><td><span class="status">Scheduled</span></td></tr>
+            <tr><td>North Zone</td><td>Household waste</td><td>Monday – Saturday</td><td><span class="status">Scheduled</span></td></tr>
+            <tr><td>South Zone</td><td>Household waste</td><td>Monday – Saturday</td><td><span class="status">Scheduled</span></td></tr>
+            <tr><td>All Zones</td><td>Public-area cleaning</td><td>As per local route</td><td><span class="status">Ongoing</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="form-note">Note: The schedule above is sample website content for this practicum, not an official municipal timetable.</p>
+    </section>
+
+    <section id="complaint">
+      <div class="section-heading">
+        <div><h2>Register a Complaint</h2><p>Use this sample form to describe an issue related to municipal services.</p></div>
+      </div>
+      <div class="form-layout">
+        <div class="form-intro">
+          <h3>Your feedback helps improve the city.</h3>
+          <p>Choose a service category and provide a clear description of the issue. Include your area so the relevant department can identify the location.</p>
+          <ul>
+            <li>Water supply concerns</li>
+            <li>Waste collection concerns</li>
+            <li>Other municipal grievances</li>
+          </ul>
+        </div>
+        <form id="complaintForm" action="#" method="get" novalidate>
+          <div class="form-row">
+            <div>
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="Enter your name" required>
+            </div>
+            <div>
+              <label for="phone">Contact Number</label>
+              <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required>
+            </div>
+          </div>
+          <div class="form-row">
+            <div>
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="name@example.com">
+            </div>
+            <div>
+              <label for="category">Service Category</label>
+              <select id="category" name="category" required>
+                <option value="">Select a category</option>
+                <option>Water Supply</option>
+                <option>Waste Management</option>
+                <option>Public Grievance</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+          <label for="area">Area / Location</label>
+          <input type="text" id="area" name="area" placeholder="Enter your street or area" required>
+          <label for="details">Complaint Details</label>
+          <textarea id="details" name="details" placeholder="Briefly explain the issue..." required></textarea>
+          <button class="button" type="submit">Submit Complaint</button>
+          <div id="formFeedback" class="form-feedback" role="status" aria-live="polite" hidden></div>
+          <p class="form-note">Demonstration form only. It does not store or send personal information.</p>
+        </form>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="section-heading">
+        <div><h2>Contact the Municipal Office</h2><p>Use the contact information below for general municipal enquiries.</p></div>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-card"><strong>📍 Office Address</strong><p>Municipal Corporation Office<br>City Centre, Main Road</p></div>
+        <div class="contact-card"><strong>☎️ Helpdesk</strong><p>Phone: 1800-000-0000<br>Monday – Friday, 9:00 AM – 5:00 PM</p></div>
+        <div class="contact-card"><strong>✉️ Email</strong><p><a href="mailto:help@cityconnect.example">help@cityconnect.example</a><br>For general service enquiries</p></div>
+      </div>
+      <p class="form-note">The address and contact details are illustrative placeholders for the practicum project.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>
+        <strong>CityConnect Municipal Services</strong>
+        <p>Working together for a cleaner, safer and better-connected city.</p>
+        <p>© 2026 CityConnect. Static HTML practicum demonstration.</p>
+      </div>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#complaint">Complaints</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Photo Lightbox Modal -->
+  <div class="lightbox-backdrop" id="lightboxModal" role="dialog" aria-modal="true" aria-labelledby="lightboxTitle" hidden>
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close photo preview">✕</button>
+      <img id="lightboxImg" src="" alt="">
+      <div class="lightbox-caption">
+        <h4 id="lightboxTitle"></h4>
+        <p id="lightboxDesc"></p>
+        <span class="credit" id="lightboxCredit"></span>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

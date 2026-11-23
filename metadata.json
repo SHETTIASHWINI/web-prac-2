@@ -1,0 +1,6 @@
+{
+  "name": "CityConnect – Municipal Services",
+  "description": "CityConnect Municipal Services citizen portal with real-life photography gallery, spoken audio guide, municipal video in action, announcements, collection schedule, and grievance reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
