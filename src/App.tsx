@@ -625,9 +625,9 @@ export default function App() {
                   controls
                   preload="metadata"
                   playsInline
-                  poster="/assets/media/images/video-poster.jpg"
+                  poster="/web-prac-2/Assets/Media/Images/video-poster.jpg"
                 >
-                  <source src="/assets/media/video/cityconnect-in-action.mp4" type="video/mp4" />
+                  <source src="/web-prac-2/Assets/Media/Video/cityconnect-in-action.mp4" type="video/mp4" />
                   Your browser does not support HTML5 video playback.
                 </video>
               </div>
